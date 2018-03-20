@@ -171,15 +171,15 @@
                 <a class="btn_buy_tokens" href="https://secure.bwex.co/">Buy Tokens</a>
                 <button class="btn_buy_tokens btn_wp">Whitepaper</button>
             </div>
-        </div>
-    </div>
 
-    <div class="subscribe">
-        <div class="subscribe__content">
-            <div class="subscribe__lgtitle">
-                The Main Token Sale is LIVE!
+            <div class="subscribe">
+                <div class="subscribe__content">
+                    <div class="subscribe__lgtitle">
+                        The Main Token Sale is LIVE!
+                    </div>
+                    <a href="https://etherscan.io/token/0xf02904cbf8e5134aeaf45626e96b782ed233fe04" target="_blank" class="subscribe__btn_etherscan">Etherscan Crowdsale Address</a>
+                </div>
             </div>
-            <a href="https://etherscan.io/token/0xf02904cbf8e5134aeaf45626e96b782ed233fe04" target="_blank" class="subscribe__btn_etherscan">Etherscan Crowdsale Address</a>
         </div>
     </div>
 
