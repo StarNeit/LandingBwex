@@ -1,0 +1,670 @@
+body{
+    background-color: #0f1227;
+    position: relative;
+}
+
+.center_vertical{
+    display:flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+}
+
+.bottom_vertical{
+    display: flex;
+    display: -webkit-flex;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
+.center_horizontal{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.right_horizontal{
+    display: flex;
+    display: -webkit-flex;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.text_align_right{
+    text-align: right;
+}
+
+.text_align_left{
+    text-align: left;
+}
+
+.flex{
+    display: flex;
+    display: -webkit-flex;
+}
+
+/* Social Buttons */
+.btn_socials{
+    margin-top: 7px;
+    text-align: right;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E6E7E8;
+}
+
+.btn_socials span{
+    margin-right: 3px;
+}
+
+.btn_socials span:hover{
+    cursor: pointer;
+}
+
+.btn_linkedin{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -89px -27px;
+    display: inline-block;
+}
+
+.btn_linkedin:hover, .btn_linkedin:focus{
+    background-position: -89px 1px;
+    cursor: pointer;
+}
+
+.btn_twitter{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -59px -27px;
+    display: inline-block;
+}
+
+.btn_twitter:hover, .btn_twitter:focus{
+    background-position: -59px 1px;
+    cursor: pointer;
+}
+
+.btn_fb{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -29px -27px;
+    display: inline-block;
+}
+
+.btn_fb:hover, .btn_fb:focus{
+    background-position: -29px 1px;
+    cursor: pointer;
+}
+
+.btn_yt{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -149px -27px;
+    display: inline-block;
+}
+
+.btn_yt:hover, .btn_yt:focus{
+    background-position: -149px 1px;
+    cursor: pointer;
+}
+
+.btn_email{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: -119px -27px;
+    display: inline-block;
+}
+
+.btn_email:hover, .btn_email:focus{
+    background-position: -119px 1px;
+    cursor: pointer;
+}
+
+.btn_connect{
+    background-image: url('../images/socials.svg');
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 26px;
+    background-position: 1px -27px;
+    display: inline-block;
+}
+
+.btn_connect:hover, .btn_connect:focus{
+    background-position: 1px 1px;
+    cursor: pointer;
+}
+
+/* Middle Out */
+.sliding-middle-out {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.sliding-middle-out:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out:hover:after {
+    width: 100%;
+    background: #fff;
+}
+
+/* Middle Out2 */
+.sliding-middle-out2 {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 2px;
+}
+.sliding-middle-out2:after {
+    content: '';
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.sliding-middle-out2:hover:after {
+    width: 100%;
+    background: #414042;
+}
+
+/* FOLLOW/FOLLOWING button */
+.btn_follow_on_white_bg{
+    margin-left: 20px;
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+    cursor: pointer;
+}
+.btn_follow_on_white_bg:hover, .btn_follow_on_white_bg:active, .btn_follow_on_white_bg_active{
+    color: #414042;
+}
+
+.btn_follow_on_blue_bg{
+    margin-left: 20px;
+    color: #A0A9FF;	font-family: "ProximaNova";	font-size: 12px; line-height: 16px;
+    cursor: pointer;
+}
+.btn_follow_on_blue_bg:hover, .btn_follow_on_blue_bg:active, .btn_follow_on_blue_bg_active{
+    color: #DFE2FF;
+}
+
+.btn_claim_company{
+    margin-left: 20px;
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+    cursor: pointer;
+}
+.btn_claim_company:hover{
+    color: #414042;
+}
+
+/* Label */
+.label1{
+    color: #414042;	font-family: "ProximaNova";	font-size: 17px;	font-weight: 600;	line-height: 22px;
+}
+.label2{
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;
+}
+.label3{
+    color: #414042;	font-family: "ProximaNova";	font-size: 16px;	line-height: 24px;
+}
+.label4{
+    color: #A7A9AC;	font-family: "ProximaNova";	font-size: 16px;	font-weight: 600;	line-height: 26px;	text-align: center;
+}
+.label5{
+    color: #414042;	font-family: "ProximaNova";	font-size: 17px;	font-weight: 600;	line-height: 22px;	text-align: center;
+}
+.label6{
+    color: #414042;	font-family: "ProximaNova";	font-size: 32px;	font-weight: bold;	line-height: 30px;	text-align: center;
+    margin-top: 14px;
+}
+.label7{
+    color: #6170FF;	font-family: "ProximaNova";	font-size: 14px;	line-height: 19px;	text-align: center;
+}
+.label8{
+    color: #414042;	font-family: "ProximaNova";	font-size: 12px;	line-height: 16px;	text-align: center;
+}
+.label9{
+    color: #414042;	font-family: "ProximaNova";	font-size: 28px;	font-weight: 300;	line-height: 32px;	text-align: center;
+}
+.label10{
+    color: #414042;	font-family: "UniNeueBook";	font-size: 48px;	font-weight: 300;	line-height: 48px;	text-align: center;
+}
+
+/**
+    DownTimer Section
+ */
+.down_timer{
+    background: url("../images/background.jpg");
+    width: 100%;
+}
+
+.down_timer__content{
+    /*max-width: 1200px;*/
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px 20px 150px;
+    text-align: center;
+    position: relative;
+}
+
+.down_timer__bar{
+    width: 47px;
+    height: 2px;
+    background: #ff0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.down_timer__lgtitle{
+    font-family: 'ProximaNovaBold';
+    font-size: 35px;
+    color: #fff;
+}
+
+.down_timer__smtitle{
+    font-family: 'ProximaNovaRegular';
+    font-size: 17px;
+    color: #fff;
+    padding-top: 10px;
+    max-width: 450px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#particles-js{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 760px;
+}
+
+.down_timer__buttons{
+    display: block;
+    margin-top: 100px;
+    position: relative;
+    z-index: 200;
+}
+
+.down_timer__buttons .btn_buy_tokens{
+    padding: 0 30px;
+    text-transform: none;
+    background-color: #38D299;
+    color: #0e2e52 !important;
+    font-weight: 600;
+    border: 2px solid #38D299;
+    line-height: 46px;
+    font-family: 'ProximaNovaBold';
+    font-size: 17px;
+    border-radius: 50px;
+    outline: none;
+    margin-right:20px;
+    display: inline-block;
+}
+
+.down_timer__buttons .btn_buy_tokens:hover{
+    background-color: #005239;
+    color: #fff!important;
+    border-color: #005239;
+}
+
+.down_timer__buttons .btn_wp {
+    background-color: transparent;
+    color: #fff !important;
+}
+
+
+/**
+    Subscribe
+ */
+.subscribe{
+    background-color: #ffd703;
+    min-height: 165px;
+    width: 100%;
+}
+.subscribe__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 20px;
+    text-align: center;
+}
+.subscribe__lgtitle{
+    font-size: 28px;
+    color: #0e213c;
+    font-family: 'ProximaNovaBold';
+}
+.subscribe__btn_etherscan{
+    padding: 0px 30px;
+    text-transform: none;
+    background-color: rgba(56,210,153,0.7);
+    color: #0e2e52 !important;
+    font-weight: 600;
+    border: 2px solid #38d299;
+    line-height: 46px;
+    font-family: 'ProximaNovaBold';
+    font-size: 17px;
+    border-radius: 50px;
+    outline: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.subscribe__btn_etherscan:hover{
+    background-color: #38abcf;
+    text-decoration: none;
+}
+
+/**
+    What is BWEX?
+ */
+.whatiscoin{
+    /*background: url("../images/background.jpg");*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    background-color: #f7f7f7;
+    min-height: 565px;
+    width: 100%;
+}
+
+.whatiscoin__content{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 100px 20px;
+}
+
+.whatiscoin__lgtitle{
+    color: #0e213c;
+    font-size: 35px;
+    font-family: 'ProximaNovaBold';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.underline__bar1{
+    width: 47px;
+    height: 2px;
+    background: #0e213c;
+    margin: 10px auto 50px;
+}
+
+.underline__bar2{
+    width: 47px;
+    height: 2px;
+    background: #f7f7f7;
+    margin: 10px auto 50px;
+}
+/**
+    Telegram
+ */
+.telegram{
+    /*background: url("../images/infobox.jpg");*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
+    background: #ffd703;
+    width: 100%;
+}
+.contact_us{
+    background-color: #f7f7f7;
+}
+.telegram__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 120px 20px 100px;
+    text-align: center;
+}
+.telegram__lgtitle{
+    color: #0e213c;
+    font-size: 35px;
+    font-family: 'ProximaNovaBold';
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.whatiscoin__smtitle{
+    color: #0e213c;
+    font-size: 20px;
+    font-family: 'ProximaNovaLight';
+    margin-bottom: 50px;
+}
+
+.whatiscoin__smtitle span{
+    font-family: 'ProximaNovaSemibold';
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/**
+    Newsletter
+ */
+.newsletter{
+    /*background-color: rgba(56,210,153,0.7);*/
+    width: 100%;
+    min-height: 300px;
+    overflow-x: auto;
+}
+.newsletter__content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 20px;
+    background: url("../images/infobox.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.newsletter__lgtitle{
+    font-size: 35px;
+    font-family: 'ProximaNovaBold';
+    color: #fff;
+    text-align: center;
+}
+.newsletter__logos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.newsletter__logos > img{
+    height: 40px;
+    margin-right: 50px;
+}
+
+.contact_box{
+    width: 50px;
+    height: 50px;
+    background: rgba(56,210,153,0.7);
+    border-radius: 10px;
+    padding-top: 10px;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.telegram__mdtitle{
+    color: #0e213c;
+    font-size: 20px;
+    font-family: 'ProximaNovaRegular';
+    padding-top: 15px;
+}
+
+.telegram__smtitle{
+    color: #0e213c;
+    font-family: 'ProximaNovaRegular';
+    font-size: 15px;
+    max-width: 280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+.newsletter__notes{
+    color: #f7f7f7;
+    font-size: 20px;
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.benefit_group{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.benefit_group img{
+    width: 70px;
+    margin-top: 30px;
+}
+
+.benefit_group span{
+    display: block;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 17px;
+    max-width: 200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    color: #f7f7f7;
+}
+@media (max-width: 768px) {
+    .down_timer__buttons .btn_wp {
+        margin-top: 20px;
+    }
+}
+
+/**
+    road_map
+ */
+.road_map{
+    /*background: #ffd703;*/
+    background: url("../images/infobox.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    width: 100%;
+}
+.road_map__content{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px 20px;
+    min-height: 400px;
+    text-align: center;
+}
+.img__road_map{
+    max-width: 1200px;
+    width: 100%;
+    margin-top: -100px;
+}
+
+
+/**
+    team_members
+ */
+.team_members{
+    background: #f7f7f7;
+    width: 100%;
+}
+
+.team_members__content{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    padding: 80px 20px;
+}
+
+.team_members__mdtitle{
+    font-family: 'ProximaNovaRegular';
+    font-size: 20px;
+    color: #0e213c;
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+
+.team_members__member{
+    text-align: center;
+}
+
+.team_members__member img{
+    width: 100%;
+    margin-top: 50px;
+    max-width: 267px;
+}
+
+.team_members__member__name{
+    font-family: 'ProximaNovaBold';
+    font-size: 20px;
+    color: #0e213c;
+    text-align: center;
+    padding-top: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team_members__member__name > img{
+    width: 17px;
+    margin: 0 0 0 10px;
+}
+
+.team_members__member__title{
+    font-family: 'ProximaNovaRegular';
+    font-size: 15px;
+    color: #0e213c;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+
+}
+
+@media (max-width: 992px) {
+
+}
+
+@media (max-width: 767px) {
+
+}

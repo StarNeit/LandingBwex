@@ -1,0 +1,190 @@
+.dt_tool .wrap {
+    margin: auto;
+    min-height: 100px;
+}
+
+.dt_tool a {
+    text-decoration: none;
+    color: #1a1a1a;
+}
+
+.dt_tool h1 {
+    margin-bottom: 60px;
+    text-align: center;
+    font: 300 2.25em "ProximaNovaSemibold";
+    text-transform: uppercase;
+}
+
+.dt_tool h1 strong {
+    font-weight: 400;
+    color: #ea4c4c;
+}
+
+.dt_tool h2 {
+    margin-bottom: 80px;
+    text-align: center;
+    font: 300 0.7em "ProximaNovaSemibold";
+    text-transform: uppercase;
+}
+
+.dt_tool h2 strong {
+    font-weight: 400;
+}
+
+.dt_tool .countdown {
+    max-width: 605px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.dt_tool .countdown .bloc-time {
+    float: left;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.dt_tool .countdown .bloc-time:last-child {
+    margin-right: 0;
+}
+
+.dt_tool .countdown .count-title {
+    display: block;
+    margin-bottom: 10px;
+    font: normal 1.4em "ProximaNovaSemibold";
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.dt_tool .countdown .figure {
+    position: relative;
+    float: left;
+    height: 80px;
+    width: 70px;
+    margin-right: 0px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), inset 2px 4px 0 0 rgba(255, 255, 255, 0.08);
+}
+
+.dt_tool .countdown .figure:last-child {
+    margin-right: 0;
+}
+
+.dt_tool .countdown .figure > span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font: normal 3.94em/87px "ProximaNovaSemibold";
+    font-weight: 700;
+    color: #0e1127;
+}
+
+@media (max-width: 768px) {
+    .dt_tool .countdown .figure {
+        height: 50px;
+        width: 40px;
+    }
+    .dt_tool .countdown .figure > span {
+        font: normal 2.94em/57px "ProximaNovaSemibold";
+    }
+    .dt_tool .countdown{
+        max-width: 365px;
+    }
+}
+
+@media (max-width: 420px) {
+    .dt_tool .countdown .figure {
+        height: 40px;
+        width: 30px;
+    }
+    .dt_tool .countdown .figure > span {
+        font: normal 2.74em/45px "ProximaNovaSemibold";
+    }
+    .dt_tool .countdown{
+        max-width: 286px;
+    }
+    .dt_tool .countdown .count-title{
+        font: normal 1em "ProximaNovaSemibold";
+    }
+}
+
+.dt_tool .countdown .figure .top:after, .dt_tool .countdown .figure .bottom-back:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.dt_tool .countdown .figure .top {
+    z-index: 3;
+    background-color: #f7f7f7;
+    transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transform: perspective(200px);
+}
+
+.dt_tool .countdown .figure .bottom {
+    z-index: 1;
+}
+
+.dt_tool .countdown .figure .bottom:before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+.dt_tool .countdown .figure .bottom-back {
+    z-index: 2;
+    top: 0;
+    height: 50%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.dt_tool .countdown .figure .bottom-back span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.dt_tool .countdown .figure .top, .dt_tool .countdown .figure .top-back {
+    height: 50%;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+
+.dt_tool .countdown .figure .top-back {
+    z-index: 4;
+    bottom: 0;
+    background-color: #fff;
+    -webkit-transform-origin: 50% 0;
+    transform-origin: 50% 0;
+    transform: perspective(200px) rotateX(180deg);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.dt_tool .countdown .figure .top-back span {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
