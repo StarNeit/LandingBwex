@@ -262,7 +262,7 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 200px 20px 400px;
+    padding: 280px 20px 400px;
     text-align: center;
     position: relative;
 }
@@ -270,7 +270,7 @@ body{
 .down_timer__bar{
     width: 47px;
     height: 2px;
-    background: #ff0;
+    background: #eb9c1d;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -280,6 +280,10 @@ body{
     font-family: 'ProximaNovaBold';
     font-size: 35px;
     color: #fff;
+}
+
+.down_timer__lgtitle > span{
+    color: #eb9c1d;
 }
 
 .down_timer__smtitle{
@@ -311,7 +315,7 @@ body{
 .down_timer__buttons .btn_buy_tokens{
     padding: 0 30px;
     text-transform: none;
-    background-color: #f3a21f;
+    background-color: #eb9c1d;
     color: #f7f7f7 !important;
     font-weight: 600;
     /*border: 2px solid #38D299;*/
@@ -428,18 +432,22 @@ body{
     /*background: url("../images/infobox.jpg");*/
     /*-webkit-background-size: cover;*/
     /*background-size: cover;*/
-    background: #ffd703;
+    background: #f7f7f7;
     width: 100%;
 }
 .contact_us{
     background-color: #f7f7f7;
+    /*background: url("../images/background.jpg");*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
 }
+
 .telegram__content{
     max-width: 1200px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 120px 20px 100px;
+    padding: 120px 20px 50px;
     text-align: center;
 }
 .telegram__lgtitle{
@@ -464,11 +472,22 @@ body{
     font-weight: bold;
 }
 
+.social_logos{
+}
+
+.social_logos img{
+    margin-top: 60px;
+    width: 50px;
+}
+
 /**
     Newsletter
  */
 .newsletter{
-    /*background-color: rgba(56,210,153,0.7);*/
+    /*background-color: rgb(44, 117, 187);*/
+    background: url("../images/background.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
     width: 100%;
     min-height: 300px;
     overflow-x: auto;
@@ -477,10 +496,10 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 20px;
-    background: url("../images/infobox.jpg");
-    -webkit-background-size: cover;
-    background-size: cover;
+    padding: 100px 20px;
+    /*background: url("../images/infobox.jpg");*/
+    /*-webkit-background-size: cover;*/
+    /*background-size: cover;*/
 }
 .newsletter__lgtitle{
     font-size: 35px;
@@ -502,7 +521,7 @@ body{
 .contact_box{
     width: 50px;
     height: 50px;
-    background: rgb(243, 162, 31);
+    background: rgb(44, 117, 187);
     border-radius: 10px;
     padding-top: 10px;
 
@@ -575,8 +594,8 @@ body{
     road_map
  */
 .road_map{
-    /*background: #ffd703;*/
-    background: url("../images/infobox.jpg");
+    /*background: rgb(44, 117, 187);*/
+    background: url("../images/background.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
@@ -585,14 +604,19 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 80px 20px;
+    padding: 100px 20px 0;
     min-height: 400px;
     text-align: center;
 }
 .img__road_map{
-    max-width: 1200px;
+    max-width: 1600px;
     width: 100%;
-    margin-top: -100px;
+    margin-top: -150px;
+}
+@media (max-width: 768px) {
+    .img__road_map {
+        margin-top: -100px;
+    }
 }
 
 
@@ -610,7 +634,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     min-height: 800px;
-    padding: 80px 20px;
+    padding: 100px 20px;
 }
 
 .team_members__mdtitle{

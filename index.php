@@ -52,7 +52,7 @@
             <div id="particles-js"></div>
             <div class="down_timer__bar"></div>
             <div class="down_timer__lgtitle">
-                Welcome to Bitwin's ICO
+                Welcome to <span>BWEX</span>'s ICO
             </div>
             <div class="down_timer__smtitle">
                 We're building Tokenized Exchange Platform on decentralized network. BWC is a unique asset that powers Bwcoin, a one size-fits-all fintech platform fueling the future of blockchain innovation.
@@ -346,9 +346,9 @@
                 </div>
                 <div class="col-md-3">
                     <div class="team_members__member">
-                        <img src="images/team/igor.png"/>
-                        <a class="team_members__member__name" href="https://www.linkedin.com/in/igor-ramsey-74356a151" target="_blank">
-                            <div>Igor Ramsey</div>
+                        <img src="images/team/nikita.png"/>
+                        <a class="team_members__member__name" href="https://www.linkedin.com/in/nikita-alexandar-b0b500158" target="_blank">
+                            <div>Nikita Alexandar</div>
                             <img src="images/linkedin.svg"/>
                         </a>
                         <div class="team_members__member__title">
@@ -358,13 +358,13 @@
                 </div>
                 <div class="col-md-3">
                     <div class="team_members__member">
-                        <img src="images/team/undefined.png"/>
-                        <a class="team_members__member__name" href="https://www.linkedin.com/in/hari-yono-173723b1" target="_blank">
-                            <div>XXXXX</div>
+                        <img src="images/team/rod.png"/>
+                        <a class="team_members__member__name" href="https://www.linkedin.com/in/rodrigo-duarte-freitas-b48944159" target="_blank">
+                            <div>Rodrigo Freitas</div>
                             <img src="images/linkedin.svg"/>
                         </a>
                         <div class="team_members__member__title">
-                            PR LEAD
+                            MARKET LEAD
                         </div>
                     </div>
                 </div>
@@ -404,6 +404,26 @@
             </div>
 
             <a href="https://t.me/bwexICO" target="_blank" class="subscribe__btn_etherscan" style="border:0;">https://t.me/bwexICO</a>
+            <div class="row social_logos">
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bwex.co/" target="_blank"><img src="images/facebook.png"/></a>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://plus.google.com/share?url=https%3A//bwex.co/" target="_blank"><img src="images/google-plus.png"/></a>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//bwex.co/&description=" target="_blank"><img src="images/pinterest.png"/></a>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://twitter.com/home?status=https%3A//bwex.co/" target="_blank"><img src="images/twitter.png"/></a>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bwex.co/&title=wbcoin&summary=&source=" target="_blank"><img src="images/linkedin.png"/></a>
+                </div>
+                <div class="col-sm-2 col-xs-4">
+                    <a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fbwex.co%2F" target="_blank"><img src="images/tumblr.svg"/></a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -441,20 +461,19 @@
                         ADDRESS
                     </div>
                     <div class="telegram__smtitle">
-                        Level 40, Ocean Financial Centre
-                        10 Collyer Quay
-                        Singapore 049315
+                        Unit 1411, 14/Floor, Cosco Tower, 183 Queen's Road Central, Sheung Wan,
+                        <br/>Hong Kong
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="contact_box">
-                        <img src="images/icon_phone.png" width="30"/>
+                        <img src="images/icon_telegram.png" width="30"/>
                     </div>
                     <div class="telegram__mdtitle">
-                        PHONE
+                        TELEGRAM
                     </div>
                     <div class="telegram__smtitle">
-                        Phone: +65 6808 6684
+                        https://t.me/bwexICO
                     </div>
                 </div>
                 <div class="col-sm-4">

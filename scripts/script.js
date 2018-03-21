@@ -56,24 +56,32 @@ $(document).ready(function(){
         $('html, body').animate({
             scrollTop: $("#container_home").offset().top
         }, 800);
+
+        $(".cd-auto-hide-header").removeClass("nav-open");
     });
 
     $("#menu_about").on("click", function () {
         $('html, body').animate({
             scrollTop: $("#container_about").offset().top
         }, 800);
+
+        $(".cd-auto-hide-header").removeClass("nav-open");
     });
 
     $("#menu_roadmap").on("click", function () {
         $('html, body').animate({
             scrollTop: $("#container_roadmap").offset().top
         }, 800);
+
+        $(".cd-auto-hide-header").removeClass("nav-open");
     });
 
     $("#menu_team").on("click", function () {
         $('html, body').animate({
             scrollTop: $("#container_team").offset().top
         }, 800);
+
+        $(".cd-auto-hide-header").removeClass("nav-open");
     });
 
     $("#menu_wp").on("click", function () {

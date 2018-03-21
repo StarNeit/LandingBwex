@@ -4,7 +4,7 @@
     padding-bottom: 50px;
 	padding-left: calc(50% - 600px);
 	padding-right: calc(50% - 600px);
-    background-color: #0f1227;
+    background-color: #0f223c;
 }
 
 .footer_category {
@@ -46,15 +46,15 @@
     display: block;
     padding-left: 20px;
     padding-right: 20px;
-    color: #919395;
+    color: #f7f7f7;
     text-align: center;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .mobile-view {
     text-align: center;
     display: none;
-    color: #919395;
+    color: #f7f7f7;
 }
 /* mobile */
 @media (max-width: 768px) {
