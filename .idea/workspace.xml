@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9952d77b-c6ae-4fc3-8947-66609ccd9ec2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/LandingBwex.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/particles.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/html/particles2.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/background.jpg" afterPath="$PROJECT_DIR$/images/background.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_email.png" afterPath="$PROJECT_DIR$/images/icon_email.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_loc.png" afterPath="$PROJECT_DIR$/images/icon_loc.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_phone.png" afterPath="$PROJECT_DIR$/images/icon_phone.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icon_telegram.png" afterPath="$PROJECT_DIR$/images/icon_telegram.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/alex.png" afterPath="$PROJECT_DIR$/images/team/alex.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/brian.png" afterPath="$PROJECT_DIR$/images/team/brian.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/team/hari.png" afterPath="$PROJECT_DIR$/images/team/hari.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/script.js" afterPath="$PROJECT_DIR$/scripts/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/auto_hide.css" afterPath="$PROJECT_DIR$/styles/auto_hide.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/footer.css" afterPath="$PROJECT_DIR$/styles/footer.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/main.css" afterPath="$PROJECT_DIR$/styles/main.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,28 +17,28 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="791">
-              <caret line="422" column="45" lean-forward="false" selection-start-line="422" selection-start-column="45" selection-end-line="422" selection-end-column="45" />
+            <state relative-caret-position="277">
+              <caret line="386" column="20" lean-forward="false" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="453" column="19" lean-forward="true" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
+            <state relative-caret-position="650">
+              <caret line="449" column="26" lean-forward="false" selection-start-line="449" selection-start-column="26" selection-end-line="449" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="script.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+            <state relative-caret-position="1431">
+              <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -86,12 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>road map</find>
-      <find>teleg</find>
-      <find>.news</find>
-      <find>.whatiscoin</find>
-      <find>cd-main-content</find>
-      <find>.cd-auto-hide-header</find>
       <find>.down_timer__content</find>
       <find>Welcome to</find>
       <find>f3a21f</find>
@@ -107,7 +83,6 @@
       <find>phone</find>
       <find>contact_us</find>
       <find>.newsletter</find>
-      <find>road</find>
       <find>.img__road_map</find>
       <find>.newsletter__content</find>
       <find>.team_members__content</find>
@@ -116,6 +91,13 @@
       <find>road_map</find>
       <find>telegram contact_us</find>
       <find>1400</find>
+      <find>newsletter</find>
+      <find>infobox</find>
+      <find>road</find>
+      <find>.subsc</find>
+      <find>.telegram</find>
+      <find>&gt; img</find>
+      <find>img</find>
     </findStrings>
     <replaceStrings>
       <replace>eb9c1d</replace>
@@ -133,8 +115,8 @@
         <option value="$PROJECT_DIR$/styles/auto_hide.css" />
         <option value="$PROJECT_DIR$/styles/footer.css" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/scripts/script.js" />
+        <option value="$PROJECT_DIR$/styles/main.css" />
       </list>
     </option>
   </component>
@@ -300,12 +282,12 @@
       <option name="presentableId" value="Default" />
       <updated>1521539185218</updated>
       <workItem from="1521539186384" duration="1322000" />
-      <workItem from="1521630378002" duration="4528000" />
+      <workItem from="1521630378002" duration="5577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5850000" />
+    <option name="totallyTimeSpent" value="6899000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1016" extended-state="6" />
@@ -319,7 +301,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32901832" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -360,26 +342,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1431">
+          <caret line="88" column="7" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="791">
-          <caret line="422" column="45" lean-forward="false" selection-start-line="422" selection-start-column="45" selection-end-line="422" selection-end-column="45" />
+        <state relative-caret-position="277">
+          <caret line="386" column="20" lean-forward="false" selection-start-line="386" selection-start-column="16" selection-end-line="386" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/styles/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="453" column="19" lean-forward="true" selection-start-line="453" selection-start-column="19" selection-end-line="453" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="82" column="8" lean-forward="false" selection-start-line="82" selection-start-column="8" selection-end-line="82" selection-end-column="8" />
+        <state relative-caret-position="650">
+          <caret line="449" column="26" lean-forward="false" selection-start-line="449" selection-start-column="26" selection-end-line="449" selection-end-column="26" />
           <folding />
         </state>
       </provider>

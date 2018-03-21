@@ -343,7 +343,7 @@ body{
     Subscribe
  */
 .subscribe{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: #ffd703; /*rgba(0, 0, 0, 0.3);*/
     min-height: 165px;
     width: 100%;
     position: absolute;
@@ -360,7 +360,7 @@ body{
 }
 .subscribe__lgtitle{
     font-size: 28px;
-    color: #f7f7f7;
+    color: #0e213c;
     font-family: 'ProximaNovaBold';
 }
 .subscribe__btn_etherscan{
@@ -432,7 +432,7 @@ body{
     /*background: url("../images/infobox.jpg");*/
     /*-webkit-background-size: cover;*/
     /*background-size: cover;*/
-    background: #f7f7f7;
+    background: #ffd703;
     width: 100%;
 }
 .contact_us{
@@ -447,7 +447,7 @@ body{
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    padding: 120px 20px 50px;
+    padding: 100px 20px 80px;
     text-align: center;
 }
 .telegram__lgtitle{
@@ -477,7 +477,7 @@ body{
 
 .social_logos img{
     margin-top: 60px;
-    width: 50px;
+    width: 70px;
 }
 
 /**
@@ -485,7 +485,7 @@ body{
  */
 .newsletter{
     /*background-color: rgb(44, 117, 187);*/
-    background: url("../images/background.jpg");
+    background: url("../images/infobox.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
@@ -595,7 +595,7 @@ body{
  */
 .road_map{
     /*background: rgb(44, 117, 187);*/
-    background: url("../images/background.jpg");
+    background: url("../images/infobox.jpg");
     -webkit-background-size: cover;
     background-size: cover;
     width: 100%;
