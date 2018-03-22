@@ -55,7 +55,7 @@
                 Welcome to <span>BWEX</span>'s ICO
             </div>
             <div class="down_timer__smtitle">
-                We're building Tokenized Exchange Platform on decentralized network. BWC is a unique asset that powers Bwcoin, a one size-fits-all fintech platform fueling the future of blockchain innovation.
+                We’re building a Tokenized Exchange Platform on a decentralized network. BWC is an unique asset that powers BWCoin, an one size fits all fintech platform fueling the future of blockchain innovation.
             </div>
             <div class="dt_tool">
                 <div class="wrap">
@@ -186,7 +186,7 @@
     <div class="whatiscoin" id="container_about">
         <div class="whatiscoin__content">
             <div class="whatiscoin__lgtitle">
-                ABOUT BWEX
+                Tokenized Exchange Platform
                 <div class="underline__bar1"></div>
             </div>
             <div class="row">
@@ -196,11 +196,11 @@
                 <div class="col-sm-6">
                     <div class="whatiscoin__smtitle">
                         <span>About BWEX</span>
-                        BWEX business model is simple. we takes (0.1%) fee for each transaction. The large number of happy customers will bring larger volumes, which also result in greater profits. Our first target is 500 Million (In USD) daily trading volume within 12 months of launch. The second target is 2 Billion (In USD) daily trading volume within 5 years.
+                        BWEX business model is very simple.We take (0.1%) fee for each transaction. The large number of happy customers will generate larger trade volumes, which will also result in greater profits. Our first target is to reach 500 Million USD daily trading volume within 12 months of launch. The second target is 2 Billion USD daily trading volume in the next 5 years.
                     </div>
                     <div class="whatiscoin__smtitle">
                         <span>Customer Search Strategy</span>
-                        Having a customer search strategy is very important in a business, especially for businesses in the heavily populated cryptocurrency industry. We believe in how marketing contacts customers. The cryptocurrency community is huge and the news of excellent service will spread quickly. On an international scale, we will spread this message with campaigns pioneered by local managers. Our message is simple and easy to understand by everyone: very small fee + amazing service.
+                        Having a way to find potential customers is very important for any company, especially for businesses in the competitive cryptocurrency industry. We believe in how marketing targets customers. The cryptocurrency community is huge and the news of excellent service will spread quickly. On an international scale, we will spread the message with campaigns pioneered by local managers. Our message is simple and easy to understand: very small fee + amazing service = customer satisfaction.
                     </div>
                 </div>
             </div>
@@ -208,13 +208,13 @@
     </div>
 
     <div class="newsletter">
-        <div class="newsletter__content">
+        <div class="feature__content">
             <div class="newsletter__lgtitle">
-                BENEFIT
+                FEATURES
                 <div class="underline__bar2"></div>
             </div>
             <div class="newsletter__notes">
-                To become one of the favored exchange tools and create new standards for cryptocurrency exchanges by prioritizing user satisfaction.
+                To become one of the top exchange tools and create new standards for cryptocurrency exchanges, we will be prioritizing user satisfaction by assuring:
             </div>
 
             <div class="row benefit_group">
@@ -227,46 +227,46 @@
                 <div class="col-sm-3">
                     <img src="images/benfit_logo2.svg"/>
                     <span>
-							Capable to cover million transactions per second
-						</span>
+							Ability to cover million transactions per second
+                    </span>
                 </div>
                 <div class="col-sm-3">
                     <img src="images/benfit_logo3.svg"/>
                     <span>
 							Great Security and privacy
-						</span>
+                    </span>
                 </div>
                 <div class="col-sm-3">
                     <img src="images/benfit_logo4.svg"/>
                     <span>
-							Easy use interface and fast access
-						</span>
+							Easy to use interface and fast access
+                    </span>
                 </div>
             </div>
             <div class="row benefit_group">
                 <div class="col-sm-3">
                     <img src="images/benfit_logo5.svg"/>
                     <span>
-							Low fees for everyone
-						</span>
+							24/7 Live support with instant response
+                    </span>
                 </div>
                 <div class="col-sm-3">
                     <img src="images/benfit_logo6.svg"/>
                     <span>
-							Capable to cover million transactions per second
+							40% profit share for token holders
 						</span>
                 </div>
                 <div class="col-sm-3">
                     <img src="images/benfit_logo7.svg"/>
                     <span>
-							Great Security and privacy
-						</span>
+							Simple and Powerful API
+                    </span>
                 </div>
                 <div class="col-sm-3">
                     <img src="images/benfit_logo8.svg"/>
                     <span>
-							Easy use interface and fast access
-						</span>
+							Zero confirmation System
+                    </span>
                 </div>
             </div>
         </div>
@@ -279,8 +279,7 @@
                 <div class="underline__bar1"></div>
             </div>
             <div class="team_members__mdtitle">
-                Core team has experience with building application for millions of customers. We are confident about our ability to bring reliable product that can serve businesses across the world.
-            </div>
+                Our team has experience building applications for millions of customers. We are confident in our ability to bring a trustworthy service that can help companies across the world.</div>
             <div class="row">
                 <div class="col-md-3">
                     <div class="team_members__member">
@@ -364,7 +363,7 @@
                             <img src="images/linkedin.svg"/>
                         </a>
                         <div class="team_members__member__title">
-                            MARKET LEAD
+                            MARKETING LEAD
                         </div>
                     </div>
                 </div>
@@ -397,31 +396,103 @@
         </div>
     </div>
 
+    <div class="smart_contract">
+        <div class="smart_contract__content">
+            <div class="smart_contract__lgtitle">
+                Smart Contract
+            </div>
+            <div class="row smart_contract__icons" style="margin-top: 50px;">
+                <div class="col-sm-4">
+                    <div class="smart_contract__smtitle smart_contract__smtitle-padding1">
+                        Contract fully complies with finalized ERC20 standard
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="smart_contract__smtitle">
+                        Contract functions are well protected from unauthorized access, and don’t perform any external calls, effectively eliminating broad variety of problems
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="smart_contract__smtitle smart_contract__smtitle-padding1">
+                        Contract is safe to use
+                    </div>
+                </div>
+            </div>
+            <div class="row smart_contract__icons">
+                <div class="col-sm-4">
+                    <a href="https://etherscan.io/address/0xf02904cbf8e5134aeaf45626e96b782ed233fe04#code" target="_blank">
+                        <img src="images/contract/source-code.png"/>
+                        <div class="smart_contract__mdtitle">
+                            Source code
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="docs/BWC_Token_Sale_Audit_v1.pdf" target="_blank">
+                        <img src="images/contract/audit.png"/>
+                        <div class="smart_contract__mdtitle">
+                            Audit
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="https://github.com/BWCOIN/bwc-smartcontract" target="_blank">
+                        <img src="images/contract/github.png"/>
+                        <div class="smart_contract__mdtitle">
+                            Github
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="telegram">
         <div class="telegram__content">
             <div class="telegram__lgtitle">
-                JOIN US ON OUR TELEGRAM CHANNEL
+                JOIN US ON OUR OFFICIAL MEDIA
+                <div class="underline__bar3"></div>
             </div>
-
-            <a href="https://t.me/bwexICO" target="_blank" class="subscribe__btn_etherscan" style="border:0;">https://t.me/bwexICO</a>
             <div class="row social_logos">
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//bwex.co/" target="_blank"><img src="images/facebook.png"/></a>
+                <div class="col-sm-offset-1 col-sm-2">
+                    <a href="https://t.me/bwexICO" target="_blank">
+                        <img src="images/telegram.png"/>
+                        <div class="social_logos__title">
+                            Telegram
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://plus.google.com/share?url=https%3A//bwex.co/" target="_blank"><img src="images/google-plus.png"/></a>
+                <div class="col-sm-2">
+                    <a href="https://www.facebook.com/bitwinexchange/" target="_blank">
+                        <img src="images/facebook.png"/>
+                        <div class="social_logos__title">
+                            Facebook
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://pinterest.com/pin/create/button/?url=&media=https%3A//bwex.co/&description=" target="_blank"><img src="images/pinterest.png"/></a>
+                <div class="col-sm-2">
+                    <a href="https://twitter.com/bitwinexchange" target="_blank">
+                        <img src="images/twitter.png"/>
+                        <div class="social_logos__title">
+                            Twitter
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://twitter.com/home?status=https%3A//bwex.co/" target="_blank"><img src="images/twitter.png"/></a>
+                <div class="col-sm-2">
+                    <a href="https://www.linkedin.com/company/bwex/" target="_blank">
+                        <img src="images/linkedin.png"/>
+                        <div class="social_logos__title">
+                            Linkedin
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bwex.co/&title=wbcoin&summary=&source=" target="_blank"><img src="images/linkedin.png"/></a>
-                </div>
-                <div class="col-sm-2 col-xs-4">
-                    <a href="https://www.tumblr.com/share/link?url=https%3A%2F%2Fbwex.co%2F" target="_blank"><img src="images/tumblr.svg"/></a>
+                <div class="col-sm-2">
+                    <a href="https://bitcointalk.org/" target="_blank">
+                        <img src="images/bitcointalk.png"/>
+                        <div class="social_logos__title">
+                            Bitcointalk
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -430,7 +501,7 @@
     <div class="newsletter">
         <div class="newsletter__content">
             <div class="newsletter__lgtitle">
-                Strategic Partners
+                OUR PARTNERS
                 <div class="underline__bar2"></div>
             </div>
             <div class="newsletter__logos">
@@ -497,7 +568,7 @@
     <!--footer-->
     <div class="footer_section">
         <div class="full-screen">
-            2018 © Copyright BWEX. All rights Reserved. Powered Bitwin Coin Global Decentralized Marketplace Platform.
+            2018 © Copyright BWEX. All rights Reserved. Powered by Bitwin Coin Global Decentralized Marketplace Platform.
         </div>
         <div class="mobile-view">
             <h4>&copy;2018. Bitwin, LLC. All Rights Reserved.</h4>

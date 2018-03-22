@@ -129,7 +129,7 @@ body{
 	width: 177px;
 	border: 0;
 	border-radius: 4px;
-	background-color: #f3a21f;
+	background-color: #38d299;
 	box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
 	-moz-box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
 	-webkit-box-shadow: inset 0 -2px 0 0 rgba(0,0,0,0.07);
@@ -146,7 +146,7 @@ body{
 }
 
 .header_btn_label:hover{
-	background-color: #2c75bb;
+	background-color: #005239;
 }
 
 @media (max-width: 1150px){
