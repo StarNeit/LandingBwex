@@ -85,7 +85,6 @@ $(document).ready(function(){
     });
 
     $("#menu_wp").on("click", function () {
-
     });
 
     $(".header_btn_label").on("click", function(){

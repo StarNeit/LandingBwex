@@ -37,7 +37,7 @@
             <li class="nav_menu"><a><div id="menu_about">About</div></a></li>
             <li class="nav_menu"><a><div id="menu_roadmap">Roadmap</div></a></li>
             <li class="nav_menu"><a><div id="menu_team">Team</div></a></li>
-            <li class="nav_menu"><a><div id="menu_wp">Whitepaper</div></a></li>
+            <li class="nav_menu"><a href="docs/whitepaper.pdf" target="_blank"><div id="menu_wp">Whitepaper</div></a></li>
             <li>
                 <input type="button" value="LOGIN / SIGN-UP" class="header_btn_label">
             </li>
