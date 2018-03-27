@@ -436,6 +436,9 @@ body{
     background: #f7f7f7;
     margin: 10px auto 50px;
 }
+.underline__bar2-mg{
+    margin-bottom: 0;
+}
 /**
     Telegram
  */
@@ -595,14 +598,15 @@ body{
     line-height: 1.26;
 }
 .newsletter__logos{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 50px;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
-.newsletter__logos > img{
+.newsletter__logos img{
     height: 40px;
-    margin-right: 50px;
+    margin-top: 50px;
 }
 
 .contact_box{
@@ -741,7 +745,7 @@ body{
 }
 
 .team_members__member img{
-    width: 100%;
+    width: 50%;
     margin-top: 50px;
     max-width: 267px;
 }

@@ -502,16 +502,32 @@
         <div class="newsletter__content">
             <div class="newsletter__lgtitle">
                 OUR PARTNERS
-                <div class="underline__bar2"></div>
+                <div class="underline__bar2 underline__bar2-mg"></div>
             </div>
-            <div class="newsletter__logos">
-                <img src="images/logo_bitgo.png"/>
-                <img src="images/logo_epay.png"/>
-                <img src="images/logo_brightbee.png"/>
-                <img src="images/logo_cmarket.jpg"/>
-                <img src="images/logo_paypal.svg"/>
-                <img src="images/logo_blockchain.svg"/>
-                <img src="images/logo_wire.svg"/>
+            <div class="row newsletter__logos">
+                <div class="col-md-3">
+                    <img src="images/logo_bitgo.png"/>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logo_epay.png"/>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logo_brightbee.png"/>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logo_paypal.svg"/>
+                </div>
+            </div>
+            <div class="row newsletter__logos">
+                <div class="col-md-3">
+                    <img src="images/logo_cmarket.jpg"/>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/logo_blockchain.svg"/>
+                </div>
+                <div class="col-md-3">
+                    <img src="images/logo_wire.png"/>
+                </div>
             </div>
         </div>
     </div>
