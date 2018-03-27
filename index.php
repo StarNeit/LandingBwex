@@ -57,109 +57,127 @@
             <div class="down_timer__smtitle">
                 We’re building a Tokenized Exchange Platform on a decentralized network. BWC is an unique asset that powers BWCoin, an one size fits all fintech platform fueling the future of blockchain innovation.
             </div>
+            <?php
+            $date1 = Date('Y-m-d h:m:s');
+            $date2 = "2018-04-27 00:00:00";
+
+            //Convert them to timestamps.
+            $date1Timestamp = strtotime($date1);
+            $date2Timestamp = strtotime($date2);
+
+            //Calculate the difference.
+            $difference = $date2Timestamp - $date1Timestamp;
+
+            $hours = floor($difference / 3600);
+
+            $days = floor($hours / 24);
+            $hours = $hours - $days * 24;
+            $minutes = floor(($difference / 60) % 60);
+            $seconds = $difference % 60;
+            ?>
             <div class="dt_tool">
                 <div class="wrap">
                     <div class="countdown">
-                        <div class="bloc-time days" data-init-value="35">
+                        <div class="bloc-time days" data-init-value="<?=$days?>">
                             <span class="count-title">Days</span>
 
                             <div class="figure days days-1">
-                                <span class="top">3</span>
+                                <span class="top"><?=floor($days/10)?></span>
                                 <span class="top-back">
-										<span>3</span>
-									</span>
-                                <span class="bottom">3</span>
+                                    <span><?=floor($days/10)?></span>
+                                </span>
+                                <span class="bottom"><?=floor($days/10)?></span>
                                 <span class="bottom-back">
-										<span>3</span>
-									</span>
+                                    <span><?=floor($days/10)?></span>
+                                </span>
                             </div>
 
                             <div class="figure days days-2">
-                                <span class="top">5</span>
+                                <span class="top"><?=floor($days%10)?></span>
                                 <span class="top-back">
-									  <span>5</span>
-									</span>
-                                <span class="bottom">5</span>
+                                  <span><?=floor($days%10)?></span>
+                                </span>
+                                <span class="bottom"><?=floor($days%10)?></span>
                                 <span class="bottom-back">
-									  <span>5</span>
-									</span>
+                                  <span><?=floor($days%10)?></span>
+                                </span>
                             </div>
                         </div>
 
-                        <div class="bloc-time hours" data-init-value="0">
+                        <div class="bloc-time hours" data-init-value="<?=$hours?>">
                             <span class="count-title">Hours</span>
 
                             <div class="figure hours hours-1">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($hours/10)?></span>
                                 <span class="top-back">
-										<span>0</span>
-									</span>
-                                <span class="bottom">0</span>
+                                    <span><?=floor($hours/10)?></span>
+                                </span>
+                                <span class="bottom"><?=floor($hours/10)?></span>
                                 <span class="bottom-back">
-										<span>0</span>
-									</span>
+                                    <span><?=floor($hours/10)?></span>
+                                </span>
                             </div>
 
                             <div class="figure hours hours-2">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($hours%10)?></span>
                                 <span class="top-back">
-									  <span>0</span>
+									  <span><?=floor($hours%10)?></span>
 									</span>
-                                <span class="bottom">0</span>
+                                <span class="bottom"><?=floor($hours%10)?></span>
                                 <span class="bottom-back">
-									  <span>0</span>
+									  <span><?=floor($hours%10)?></span>
 									</span>
                             </div>
                         </div>
 
-                        <div class="bloc-time min" data-init-value="0">
+                        <div class="bloc-time min" data-init-value="<?=$minutes?>">
                             <span class="count-title">Minutes</span>
 
                             <div class="figure min min-1">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($minutes/10)?></span>
                                 <span class="top-back">
-									  <span>0</span>
-									</span>
-                                <span class="bottom">0</span>
+                                  <span><?=floor($minutes/10)?></span>
+                                </span>
+                                <span class="bottom"><?=floor($minutes/10)?></span>
                                 <span class="bottom-back">
-									  <span>0</span>
-									</span>
+                                  <span><?=floor($minutes/10)?></span>
+                                </span>
                             </div>
 
                             <div class="figure min min-2">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($minutes%10)?></span>
                                 <span class="top-back">
-									  <span>0</span>
-									</span>
-                                <span class="bottom">0</span>
+                                  <span><?=floor($minutes%10)?></span>
+                                </span>
+                                <span class="bottom"><?=floor($minutes%10)?></span>
                                 <span class="bottom-back">
-									  <span>0</span>
-									</span>
+                                  <span><?=floor($minutes%10)?></span>
+                                </span>
                             </div>
                         </div>
 
-                        <div class="bloc-time sec" data-init-value="0">
+                        <div class="bloc-time sec" data-init-value="<?=$seconds?>">
                             <span class="count-title">Seconds</span>
 
                             <div class="figure sec sec-1">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($seconds/10)?></span>
                                 <span class="top-back">
-									  <span>0</span>
+									  <span><?=floor($seconds/10)?></span>
 									</span>
-                                <span class="bottom">0</span>
+                                <span class="bottom"><?=floor($seconds/10)?></span>
                                 <span class="bottom-back">
-									  <span>0</span>
+									  <span><?=floor($seconds/10)?></span>
 									</span>
                             </div>
 
                             <div class="figure sec sec-2">
-                                <span class="top">0</span>
+                                <span class="top"><?=floor($seconds%10)?></span>
                                 <span class="top-back">
-									  <span>0</span>
+									  <span><?=floor($seconds%10)?></span>
 									</span>
-                                <span class="bottom">0</span>
+                                <span class="bottom"><?=floor($seconds%10)?></span>
                                 <span class="bottom-back">
-									  <span>0</span>
+									  <span><?=floor($seconds%10)?></span>
 									</span>
                             </div>
                         </div>
