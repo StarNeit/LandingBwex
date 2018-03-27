@@ -337,6 +337,7 @@ body{
 .down_timer__buttons .btn_wp {
     background-color: transparent;
     color: #fff !important;
+    border: 1px solid #fff;
 }
 
 

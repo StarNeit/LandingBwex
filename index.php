@@ -187,7 +187,7 @@
 
             <div class="down_timer__buttons">
                 <a class="btn_buy_tokens" href="https://secure.bwex.co/">Buy Tokens</a>
-                <button class="btn_buy_tokens btn_wp">Whitepaper</button>
+                <a class="btn_buy_tokens btn_wp" href="docs/whitepaper.pdf" target="_blank">Whitepaper</a>
             </div>
 
             <div class="subscribe">
