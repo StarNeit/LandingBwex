@@ -37,7 +37,7 @@
             <li class="nav_menu"><a><div id="menu_about">About</div></a></li>
             <li class="nav_menu"><a><div id="menu_roadmap">Roadmap</div></a></li>
             <li class="nav_menu"><a><div id="menu_team">Team</div></a></li>
-            <li class="nav_menu"><a href="docs/whitepaper.pdf" target="_blank"><div id="menu_wp">Whitepaper</div></a></li>
+            <li class="nav_menu"><a href="/whitepaper" target="_blank"><div id="menu_wp">Whitepaper</div></a></li>
             <li>
                 <input type="button" value="LOGIN / SIGN-UP" class="header_btn_label">
             </li>
@@ -207,7 +207,7 @@
 
             <div class="down_timer__buttons">
                 <a class="btn_buy_tokens" href="https://secure.bwex.co/">Buy Tokens</a>
-                <a class="btn_buy_tokens btn_wp" href="docs/whitepaper.pdf" target="_blank">Whitepaper</a>
+                <a class="btn_buy_tokens btn_wp" href="/whitepaper" target="_blank">Whitepaper</a>
             </div>
 
             <div class="subscribe">

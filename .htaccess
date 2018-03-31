@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+ErrorDocument 404 /err404.html
+RewriteRule ^whitepaper ./docs/whitepaper.pdf
+RewriteRule ^whitepaper.php ./docs/whitepaper.pdf
