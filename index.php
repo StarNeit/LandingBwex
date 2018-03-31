@@ -185,6 +185,26 @@
                 </div>
             </div>
 
+            <div class="timeline">
+                <div class="timeline__content" style="width: <?= 30.372 ?>%">
+                </div>
+                <div class="timeline__softcap">
+                    <span>
+                        Softcap<br/>
+                        $1.000.000
+                    </span>
+                </div>
+                <div class="timeline__hardcap">
+                    <span>
+                        Hardcap<br/>
+                        $25.000.000
+                    </span>
+                </div>
+                <div class="timeline__current" style="left: calc(<?= 30.372 ?>% - 15px);">
+                    $1.1M
+                </div>
+            </div>
+
             <div class="down_timer__buttons">
                 <a class="btn_buy_tokens" href="https://secure.bwex.co/">Buy Tokens</a>
                 <a class="btn_buy_tokens btn_wp" href="docs/whitepaper.pdf" target="_blank">Whitepaper</a>
