@@ -525,7 +525,7 @@
                     </a>
                 </div>
                 <div class="col-sm-2">
-                    <a href="https://bitcointalk.org/" target="_blank">
+                    <a href="https://bitcointalk.org/index.php?topic=3217749" target="_blank">
                         <img src="images/bitcointalk.png"/>
                         <div class="social_logos__title">
                             Bitcointalk
